@@ -1,6 +1,9 @@
 # E12933
 Artificial Intelligence and Machine Learning - Group Project
 
-# testing 1
-# testind eleonora
-# testing yasmin
+# importing libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as mpl
+
+# importing database
