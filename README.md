@@ -1,9 +1,15 @@
 # E12933
 Artificial Intelligence and Machine Learning - Group Project
 
-# importing libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as mpl
+# Consumer Segmentation
+# Team members: Eleonora Di Mario, Martina Di Segni, Yasmin Bocatto
 
-# importing database
+# Introduction
+
+# Methods
+
+# Experimental Design
+
+# Results
+
+# Conclusions
