@@ -2,9 +2,13 @@
 Artificial Intelligence and Machine Learning - Group Project
 
 # Consumer Segmentation
-# Team members: Eleonora Di Mario, Martina Di Segni, Yasmin Bocatto
+## Team members: Eleonora Di Mario, Yasmin Bocatto ,Martina Di Segni
 
-# Introduction
+
+## Introduction
+
+
+
 
 # Methods
 
