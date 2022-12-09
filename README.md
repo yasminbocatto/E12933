@@ -72,9 +72,9 @@ Since we were getting some warnings because we are using some built-in functions
   *   Plotted some scatterplots to look for outliers (found a few in the payment_value variable)
       *  This variable's mean was of 195.2 and it's standard deviation was 295.5, five values were higher than 4000, so we ended up removing them
 
-    ![Payment Value Scatterplot (w/ outliers)](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/payment_value_scatterplot_(with_outliers).png)
+    ![Payment Value Scatterplot (w/ outliers)](C:/Users/eleon/Documents/GitHub/E12933/payment value scatterplot (with outliers).png)
 
-    ![Payment Value Scatterplot (wo/ outliers)](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/payment_value_scatterplot_(without_outliers).png)
+    ![Payment Value Scatterplot (wo/ outliers)](C:/Users/eleon/Documents/GitHub/E12933/payment value scatterplot (without outliers).png)
   
   *   Grouped similar categories of product_category_name_english such as "drink", "food" and "food_drink" into only "food_drink" to help with future encoding
   *   Encoded the variables customer_state, payment_type, seller_state and product_category_name_english
@@ -83,17 +83,17 @@ Since we were getting some warnings because we are using some built-in functions
 
   *   Plotted a correlation matrix heatmap to look at the relationship between variables
   
-     ![Correlation Matrix Heatmap](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/corr_matrix_heat_map.png)
+     ![Correlation Matrix Heatmap](C:/Users/eleon/Documents/GitHub/E12933/corr matrix - heat map.png)
 
   * Plotted some barplots to look at the relationship between categorical and numericall variables, for example, number of customers in each state
 
-    ![Number of Customers per State](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/number_of_customers_per_state.png)
+    ![Number of Customers per State](C:/Users/eleon/Documents/GitHub/E12933/number of customers per state.png)
     
-    ![Cities with more Customers](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/cities_with_more_customers.png)
+    ![Cities with more Customers](C:/Users/eleon/Documents/GitHub/E12933/cities with more customers.png)
     
-    ![Top Products Ordered X Less Products Ordered](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/top_and_lowest_products.png)
+    ![Top Products Ordered X Less Products Ordered](C:/Users/eleon/Documents/GitHub/E12933/top and lowest products.png)
 
-    ![Payment Type and Payment Installments](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/payment_type_and_installments.png)
+    ![Payment Type and Payment Installments](C:/Users/eleon7Documents/GitHub/E12933/payment type and installments.png)
 
 6.  Started the RFM analysis by calculating the Recency, Frequency and Monetary values:
 
@@ -120,18 +120,18 @@ After all these steps, we built, applied and validated the models. Additionally 
 We conducted several experiments for the exploratory analysis. The main purpose was to understand each customer data, the correlation between the variables available and the main trends present in our dataset in order to be able to segment customer in the most accurate way for the company to address the specific and targeted marketing campaigns. 
 One of the main and most valuable steps was the RFM analysis. RFM stand for Recency, Frequency and Monetary value, each corresponding to key customer traits. RFM was fundamental in our analysis because the three indicators by which it is composed are indicators of customer’s behavior that help predict future behavior. For each of these attributes we assigned a score to each customer, ranging from 1 to 5 and we obtained some interesting results that we plotted:
 
-  ![Recency visualization](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/recency_rfm_graphs.png)
+  ![Recency visualization](C:/Users/eleon/Documents/GitHub/E12933/recency (rfm graphs).png)
 
 We decided to assign a recency score to every costumer according to the date of their last purchase.  We assigned a 5 to people who’s last purchase was in the range of a month, a 4 to people whose last purchase was between 30 and 60 days.  Then we assigned a 3 to people whose last purchase was between 60 and 120 days,  a 2 to customers that purchased their last item in the last 120 to 180 days and lastly a 1 to costumers whose last purchase was over 180 days ago. 
 We found out that most of the costumers were assigned a score of 3  while very few costumers received a score of 1.  As we can see the tallest bar is the one that goes from 60 to 120 days, that is the costumers that received a score of 3, that are almost 6000. The bar before that one is the sum of the costumers that obtained a score between 5 and 4, there are around 5500 costumers in this category. Than we have the lowest bar that are the costumers that have a recency score of 1 or 2, and those sum up to 2100. 
 
-  ![Frequency visualization](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/frequency_rfm_graphs.png)
+  ![Frequency visualization](C:/Users/eleon/Documents/GitHub/E12933/frequency (rfm graphs).png)
 
 We assigned a frequency score to each customer according to the amounts of time they purchased from the company. 
 In order for a costumer to have a score of 5 they have to have purchased at least 10 times. Costumers that have purchased between 6 and 9 times (both included) received a score of 4, if a costumer has purchased 4 or 5 times the score assigned was a 3. Lastly if a costumer had only bought from the brand 3 of 2 times, they received a score of 2 and if they only purchased once the score was 1. 
 From the graph we can notice how most people bought from this company just once or twice, in fact the amount of people that got a score of 1 are 9536. Very few people (just 58) have obtained a score of 5.
 
-  ![Monetary visualization](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/monetary_rfm_graphs.png)
+  ![Monetary visualization](C:/Users/eleon/Documents/GitHub/E12933/monetary (rfm graphs).png)
 
 Also for the monetary value each customer was assigned a score according to the total amount spent in the company’s products. We considered costumers that spent more than 500 euros with a score of 5, costumer that spent between 250 and 500 got a score of 4, the costumers that got a 3 were the ones that spent between 150 and 250, the ones that spent between 100 euros and 150 got a rating of 2 and lastly a 1 was assigned to all costumers that spent at most 100 euros. From this resulting graph we can see how most of the customers of the brand spent around 300 euros, while there isn’t a lot of people spending more than 750, and almost no-one spent more than 1100.  In fact most of the costumers received a score of 1 (4957 costumers).
 
@@ -140,7 +140,7 @@ We decided to segment customers in three main clusters: Gold, Silver and Bronze.
 To the gold segment were assigned the customers having a final score ranging between four and five, the silver cluster are all the customers with a final score between two and four while to the bronze cluster belongs the customer with a score between one and two.  
 We then plotted the results using a piechart type of graph.
 
-  ![Piechart customers](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/percentage_of_customer_segments.png)
+  ![Piechart customers](C:/Users/eleon/Documents/GitHub/E12933/percentage of customer segments.png)
 
 The results from our clustering were the following:
 *  48.8% of the customers were classified as bronze 
@@ -170,26 +170,31 @@ After applying the models, we ended up with the following results for each metho
   *  Silhouette Score: 0.475
   *  Calinski-Harabasz Score: 9224.910
   *  Davies Bouldin Score: 0.787
-
-      ![K-means clusters](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/clusters_kmeans.png)
+         
+             
+      ![K-means elbow method](C:/Users/eleon/Documents/GitHub/E12933/elbow method.png)   
+      ![K-means clusters](C:/Users/eleon/Documents/GitHub/E12933/clusters kmeans.png)
 
 * Hierarchical clustering
+  *  Number of clusters: 4
   *  Silhouette Score: 0.388
   *  Calinski-Harabasz Score: 7169.908
   *  Davies Bouldin Score: 0.808
 
-      ![HC clusters](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/clusters_hc.png)
+      ![HC dendogram](C:/Users/eleon/Documents/GitHub/E12933/dendogram hc.png) 
+      ![HC clusters](C:/Users/eleon/Documents/GitHub/E12933/cluster hc.png)
 
 * DBSCAN
+  *  optimal epsilon:0.4 n=6 
   *  Silhouette Score: 0.379
   *  Calinski-Harabasz Score: 7974.005
   *  Davies Bouldin Score: 0.256
-
-      ![DBSCAN clusters](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/clusters_dbscan.png)
+      ![DBSCAN optimal ep](C:/Users/eleon/Documents/GitHub/E12933/optimal epsilon dbscan.png)
+      ![DBSCAN clusters](C:/Users/eleon/Documents/GitHub/E12933/cluster dbscan.png)
 
 According to our validation metrics, k-means was the best model considering it has the highest Silhouette score and Calinski-Harabasz score. Even if the DBSCAN model gets the best Davies Bouldin score (the lowest the better), we chose k-means because it still has two good validation scores against one. Therefore, we move on to interpreting it's clusters:
 
-  ![Cluster Interpretation (K-means)](C:/Users/silva/Documents/Faculdade/Intercambio/AI_and_Machine_Learning/Group_project/Graphs/cluster_interpretation_kmeans.png)
+  ![Cluster Interpretation (K-means)](C:/Users/eleon/Documents/GitHub/E12933/cluster interpretation (kmeans).png)
 
 From the plotted graph, we can observe the 3 clusters and how they interact with each of the variables in the RFM model. These are the names we chose for each cluster based on the plot:
 
