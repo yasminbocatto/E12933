@@ -87,7 +87,7 @@ Since we were getting some warnings because we are using some built-in functions
 
   * Plotted some barplots to look at the relationship between categorical and numericall variables, for example, number of customers in each state
 
-    ![Number of Customers per State](C:/Users/eleon/Documents/GitHub/E12933/number of customers per state.png)
+    ![Number of Customers per State](https://github.com/yasminbocatto/E12933/blob/main/number_of_costumer_per_state.png)
     
     ![Cities with more Customers](https://github.com/yasminbocatto/E12933/blob/main/images_for_the_project/cities%20with%20more%20customers.png)
     
@@ -189,8 +189,11 @@ After applying the models, we ended up with the following results for each metho
   *  Silhouette Score: 0.379
   *  Calinski-Harabasz Score: 7974.005
   *  Davies Bouldin Score: 0.256
+
+
       ![DBSCAN optimal ep](https://github.com/yasminbocatto/E12933/blob/main/images_for_the_project/optimal%20epsilon%20dbscan.png)
       ![DBSCAN clusters](https://github.com/yasminbocatto/E12933/blob/main/images_for_the_project/cluster%20dbscan.png)
+      
 
 According to our validation metrics, k-means was the best model considering it has the highest Silhouette score and Calinski-Harabasz score. Even if the DBSCAN model gets the best Davies Bouldin score (the lowest the better), we chose k-means because it still has two good validation scores against one. Therefore, we move on to interpreting it's clusters:
 
